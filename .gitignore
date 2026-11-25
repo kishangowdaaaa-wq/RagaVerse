@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Audio datasets
+data/raw/
+data/processed/
+data/reference_audio/
+
+# Model files
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.safetensors
+
+# Database
+*.db
+*.sqlite3
+
+# Secrets and credentials
+secrets/
+credentials.json
